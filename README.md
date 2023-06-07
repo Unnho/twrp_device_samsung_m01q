@@ -57,7 +57,7 @@ $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optim
 $ git clone https://github.com/smiley9000/twrp_device_samsung_sdm439 device/samsung/sdm439-common
 
 # Clone tree
-$ git clone  https://github.com/smiley9000/twrp_device_samsung_a01q device/samsung/m01q
+$ git clone  https://github.com/smiley9000/twrp_device_samsung_m01q device/samsung/m01q
 
 # Build
 $ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_m01q-eng; mka recoveryimage
