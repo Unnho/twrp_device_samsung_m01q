@@ -1,7 +1,7 @@
 [
   {
     "remote": "smiley9000",
-    "repository": "twrp_device_samsung_sdm439-common",
+    "repository": "twrp_device_samsung_sdm439",
     "target_path": "device/samsung/sdm439-common",
     "branch": "main"
   }
