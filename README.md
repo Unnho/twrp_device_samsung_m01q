@@ -54,13 +54,13 @@ $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manif
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Clone common tree repo
-$ git clone https://github.com/smiley9000/twrp_device_samsung_sdm439 device/samsung/sdm439-common
+$ git clone https://github.com/Unnho/twrp_device_samsung_sdm439 device/samsung/sdm439-common
 
 # Clone tree
-$ git clone  https://github.com/smiley9000/twrp_device_samsung_m01q device/samsung/m01q
+$ git clone  https://github.com/Unnho/twrp_device_samsung_m01q device/samsung/m01q
 
 # Build
-$ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_m01q-eng; mka recoveryimage
+$ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_m01q-eng; mka recoveryimage -j62
 
 
 # Remove Samsung Securities after installing TWRP.
