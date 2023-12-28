@@ -57,7 +57,7 @@ SHRP_EXTERNAL := /external_sd
 SHRP_OTG := /usb_otg
 
 # Flashlight: (0 = disable, 1 = enable)
-SHRP_FLASH := <0|1>
+SHRP_FLASH := 1
 
 # Notch
 SHRP_NOTCH := true
